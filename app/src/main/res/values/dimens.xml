@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="contact_card_image_height">160dp</dimen>
+    <dimen name="contact_grid_spacing">160dp</dimen>
+    <dimen name="contact_grid_spacing_small">50dp</dimen>
+</resources>

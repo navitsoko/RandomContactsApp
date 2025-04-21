@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_host_fragment">
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="com.example.contacts.ContactGridFragment"
+        android:label="Contact Grid" />
+
+    <fragment
+        android:id="@+id/contact_detail_fragment"
+        android:name="com.example.contacts.ContactDetailFragment"
+        android:label="Contact Detail" />
+
+    <action
+        android:id="@+id/action_ContactGridFragment_to_ContactDetailFragment"
+        app:destination="@id/contact_detail_fragment" />
+
+</navigation>
